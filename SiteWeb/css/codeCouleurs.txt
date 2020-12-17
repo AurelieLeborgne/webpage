@@ -1,3 +1,0 @@
-Rouge: #861828
-Violet: #350a35
-Rose: #ffe0e3
