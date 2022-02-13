@@ -207,8 +207,15 @@ h2{
 /* PROJETS */
 
 #projets ul li img{
-    max-height: 90px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     padding-left: 0.9375rem;
+}
+
+.contImg{
+    max-height: 120px;
+    max-width: 200px;
 }
 
 #projets .media-body{
@@ -226,9 +233,29 @@ h2{
 }
 
 #projets ul .media{
-    padding: 1.25rem 0;
-    border-bottom: 1px solid;
+
     display: block;
+}
+
+#projets ul .media .bordure{
+    border-bottom: 1px solid;
+    padding: 1.25rem 0;
+}
+
+#projets ul .media a{
+ color: var(--violet);
+ text-decoration: none;
+ display: flex;
+}
+
+#projets ul .media >div{
+ display: flex;
+}
+
+
+#projets ul .media a:hover, #consortium ul .media a:focus-visible{
+ color: #ffe0e3;
+ border-bottom: 2px solid #ffe0e3;
 }
 
 
