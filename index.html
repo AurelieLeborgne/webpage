@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src='js/script.js'></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 
 
@@ -49,14 +50,22 @@
                                 <li class="nav-item active">
                                     <a class="nav-link" href="#cv">CV</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#recherches">Recherches</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recherches</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#recherches">en informatique</a>
+                                        <a class="dropdown-item" href="#RecherchesPedagogie">en pédagogie</a>
+                                    </div>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#projets">Projets</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#publications">Publications</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Publications</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#publications">en informatique</a>
+                                        <a class="dropdown-item" href="#publicationsPedagogiques">en pédagogie</a>
+                                    </div>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#enseignements">Enseignements</a>
@@ -75,11 +84,20 @@
     <button id="backToTop" title="Retour en haut de site"><i class="material-icons">arrow_upward</i></button>
 
 
-    <section id="cv" class="rose premierParagraphe">
+    <section id="cv" class="clair premierParagraphe">
         <div class="container">
             <h2>Curriculum Vitæ</h2>
             <div class="main">
                 <ul class="detail-cv">
+                    <li>
+                        <div class="col-3 col-sm-1 cv-annee">
+                            2022- ...
+                        </div>
+                        <div class="col-9 col-sm-11">
+                            <span class="cv-description">Diplôme Universitaire de Pédagogie de l'Enseignement Supérieur</span>
+                            <span class="cv-etablissement">Université de Strasbourg, IDIP</span>
+                        </div>
+                    </li>
                     <li>
                         <div class="col-3 col-sm-1 cv-annee">
                             2018
@@ -112,17 +130,17 @@
 
             </div>
         </div>
-        <div>
+    </section>
+    <div>
             <svg class="diag1" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
                 viewBox="0 0 100 102" preserveAspectRatio="none">
                 <path d="M100 0 L-2 100 L100 100 Z"></path>
             </svg>
 
         </div>
-    </section>
-    <section id="recherches">
+    <section id="recherches" class="rose recherche">
         <div class="container">
-            <h2>Recherches</h2>
+            <h2>Recherches en informatique</h2>
             <div class="main">
                 <h3>Mots clés</h3>
                 <p class="motsCles">
@@ -151,6 +169,14 @@
                     <li><i class="material-icons feminin">account_circle</i><strong>Kaouthar DRISS : </strong>Reconnaissance des objets complexes en imagerie satellitaire - Modélisation en graphe spatio-temporel (2019)</li>
                 </ul>
             </div>
+            <div class="main">
+                <h3><a href="https://lactu.unistra.fr/n221-edition-du-25-fevrier-2022/communaute/grace-au-mentorat-des-doctorantes-et-doctorants-bien-epaules">Mentorat</a></h3>
+                <p>Il s'agit d'un accompagnement régulier sur une année, dont les objectifs sont : enrichissement mutuel, partage d'expériences et de connaissances, soutien, encouragements, écoute, conseils, ...</p>
+                <h4> Thèses</h4>
+                <ul>
+                    <li><i class="material-icons feminin">account_circle</i><strong>Ombline CONRAD : </strong>Rôle des microARN dans la rechute locorégionale et métastatique des cancers des voies aérodigestives supérieures (2022-2023)</li>
+                </ul>
+            </div>
         </div>
     </section>
     <div>
@@ -160,7 +186,34 @@
         </svg>
     </div>
 
-    <section id="projets" class="sombre">
+    <section id="RecherchesPedagogie" class="sombre recherche">
+        <div class="container">
+            <h2>Recherches en pédagogie</h2>
+            <div class="main">
+                <h3>Mots clés</h3>
+                <p class="motsCles">
+                    Émotions, bien-être, connaissance de soi, relations entre pairs, relations enseignant-étudiant, expérienciation
+                </p>
+                <h3>Comment j'en suis arrivée là?</h3>
+                <p>
+                    Actuellement en train de passer mon <a href="https://idip.unistra.fr/du-pedagogie-de-lenseignement-superieur/"> Diplôme Universitaire de l'Enseignement Supérieur (DU PES) </a>, j'ai découvert le rôle de praticien-chercheur en pédagogie qui a pour perspective de donner du sens sur ses pratiques d'enseignement et l'apprentissage qui en résulte. Ainsi, depuis 2023, je soutiens ma démarche d'investigation pédagogique par des écrits scientifiques concernant les phénomènes qui attirent mon attention, et je les présente lors de conférences comme <a href="https://qpes2023.sciencesconf.org/">QPES </a>, <a href="https://www.aipu-international.org/presentation-des-congres"> AIPU </a>.
+                </p>
+                
+            </div>
+
+                
+            </div>
+        </div>
+    </section>
+    <div>
+            <svg class="diag-fonce-clair" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+                viewBox="0 0 100 102" preserveAspectRatio="none">
+                <path d="M100 0 L-2 100 L100 100 Z"></path>
+            </svg>
+
+        </div>
+
+    <section id="projets" class="clair">
         <div class="container">
             <h2>Projets</h2>
             <div class="main">
@@ -168,13 +221,30 @@
 
                 <ul>
                     <li class="media">
+                                <a class="bordure" href="" target="_blank">
+                                    <div class="contImg">
+                                        <img src="images/blanc.png" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <h4>TETRA (2023-2026) : the Toolbox and mEthodology for waTeR based AI projects</h4>
+                                        <ul class="listeDomaine">
+                                            <li> <span class="material-symbols-outlined">grade</span>Mon rôle : collaboratrice</li>
+                                            <li>Domaine environnemental : Qualité de l'eau</li>
+                                            <li><i class="material-icons">monetization_on</i> Financement : ANR Franco-allemand</li>
+                                        </ul>
+                                    </div>
+
+                                </a>
+                            </li>
+                    <li class="media">
                                 <a class="bordure" href="https://aurelieleborgne.github.io/webpage_MoS-T/" target="_blank">
                                     <div class="contImg">
-                                        <img src="images/FPM.png" alt="">
+                                        <img src="images/most-noir.png" alt="">
                                     </div>
                                     <div class="media-body">
                                         <h4>MoS-T (2021-2025) : Recherche et visualisation de Motifs Spatio- Temporels fréquents dans un grand graphe</h4>
                                         <ul class="listeDomaine">
+                                            <li> <span class="material-symbols-outlined">grade</span>Mon rôle : porteuse</li>
                                             <li>Domaine médical : Connectivité fonctionnelle du cerveau (IRM fonctionnelle)</li>
                                             <li>Domaine environnemental : Évolution des territoires (RPG, BD foret, Corine Land Cover)</li>
                                             <li><i class="material-icons">monetization_on</i> Financement : ANR JCJC</li>
@@ -183,14 +253,16 @@
 
                                 </a>
                             </li>
+                    
                     <li class="media">
-                                <div class="bordure">
-                                    <div class="contImg">
-                                        <img src="images/Modelisation.png" alt="">
-                                    </div>
-                                    <div class="media-body">
-                                        <h4>METEC-Graphe (2019-2022) : Modélisation de données spatio-temporelles par des graphes</h4>
-                                        <ul class="listeDomaine">
+                        <div class="bordure">
+                            <div class="contImg">
+                                <img src="images/Modelisation.png" alt="">
+                            </div>
+                            <div class="media-body">
+                                <h4>METEC-Graphe (2019-2022) : Modélisation de données spatio-temporelles par des graphes</h4>
+                                <ul class="listeDomaine">
+                                    <li> <span class="material-symbols-outlined">grade</span>Mon rôle : porteuse</li>
                                     <li>Domaine médical : Connectivité fonctionnelle du cerveau (IRM fonctionnelle)</li>
                                     <li>Domaine environnemental : Évolution des territoires (RPG, BD foret)</li>
                                     <li><i class="material-icons">monetization_on</i> Financement : Idex de l'Université de Strasbourg</li>
@@ -202,10 +274,16 @@
             </div>
         </div>
     </section>
+    <div>
+        <svg class="diag-clair-fonce" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+            viewBox="0 0 100 102" preserveAspectRatio="none">
+            <path d="M0 0 L-2 100 L100 100 Z"></path>
+        </svg>
+    </div>
 
-    <section id="publications" class="sombre publications">
+    <section id="publications" class="sombre publications publicationsInformatiques">
         <div class="container">
-            <h2>Publications</h2>
+            <h2>Publications en informatique</h2>
             <div class="main">
                 <h3>Revues internationales avec comité de lecture et actes</h3>
                 <ul class="listePublications">
@@ -455,8 +533,53 @@ murins par extraction de motifs fréquents dans des graphes</div>
 
         </div>
     </section>
+    <div>
+            <svg class="diag-fonce-rose" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+                viewBox="0 0 100 102" preserveAspectRatio="none">
+                <path d="M100 0 L-2 100 L100 100 Z"></path>
+            </svg>
 
-    <section id="enseignements">
+        </div>
+
+    <section id="publicationsPedagogiques" class="rose publications publicationsPedagogiques">
+        <div class="container">
+            <h2>Publications en pédagogie</h2>
+            <div class="main">
+                <h3>Conférences internationales avec comité de lecture</h3>
+                <ul class="listePublications">
+                    <li>
+                        <a href="" target="_blank" title="lien vers le pdf">
+                            <div class="titrePublication">à venir ...</div>
+                            <div class="auteursPublication"><i class="material-icons">edit</i>A. Leborgne, L. Pruvost-Ducastel et C. Sauter</div>
+                            <div class="journalPublication"><i class="material-icons">article</i>QPES</div>
+                            <div class="anneePublication"><i class="material-icons">calendar_today</i>juin 2023</div>
+                        </a>
+                    </li>
+                </ul>
+                <h3>Conférences nationales avec comité de lecture</h3>
+                <ul class="listePublications">
+                    <li>
+                        <a href="" target="_blank" title="lien vers le pdf">
+                            <div class="titrePublication">à venir ...</div>
+                            <div class="auteursPublication"><i class="material-icons">edit</i>A. Leborgne et C. Sauter</div>
+                            <div class="journalPublication"><i class="material-icons">article</i>AIPU-section France</div>
+                            <div class="anneePublication"><i class="material-icons">calendar_today</i>mars 2023</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <div>
+        <svg class="diag-rose-fonce" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+            viewBox="0 0 100 102" preserveAspectRatio="none">
+            <path d="M0 0 L-2 100 L100 100 Z"></path>
+        </svg>
+    </div>
+
+    <section id="enseignements" class="sombre">
         <div class="container">
             <h2>Enseignements dispensés au cours de ma carrière</h2>
             <div class="main">
@@ -493,6 +616,38 @@ murins par extraction de motifs fréquents dans des graphes</div>
                         </ul>
                     </li>
                     <li>
+                        <span class="titreMatière">PPP</span> <i>(1ère et deuxième année IUT Informatique)</i>
+                        <ul>
+                            <li>
+                                Connaissance de soi et développement de ses compétences psycho-sociales <i>(1ère année IUT Informatique)</i>
+                            </li>
+
+                            <li>
+                                Métiers de l'informatique <i>(1ère année IUT informatique)</i>
+                            </li>
+                            <li>
+                                Identification et mobilisation de ses forces de caractères (Seligman) <i>(1ère année IUT informatique)</i>
+                            </li>
+                            <li>
+                                Préparation aux entretiens de stages <i>(2ème année IUT informatique)</i>
+                            </li>
+                            <li>
+                                Construction de son projet professionnel <i>(2ème année IUT informatique)</i>
+                            </li>
+                            <li>
+                                Postulation avec stratégie de manière congruente avec son système de valeurs <i>(2ème année IUT informatique)</i>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="titreMatière">Intelligence Artificielle</span>
+                        <ul>
+                            <li>
+                                Méthodes d'apprentissage non supervisées (classification hiérarchique, motifs fréquents et règles d'association) <i>(2ème année de Master Approche Interdisciplinaire en Sciences des données)</i>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
                         <span class="titreMatière">BD</span> <i>(Licence AES 3ème année, 1ère année IUT informatique)</i>
                     </li>
                     <li>
@@ -525,17 +680,7 @@ murins par extraction de motifs fréquents dans des graphes</div>
                         <span class="titreMatière">Suivi de projets</span> <i>(Master 2 Science des Données et des
                             Systèmes Complexes)</i>
                     </li>
-                    <li>
-                        <span class="titreMatière">PPP</span> <i>(1ère et deuxième année IUT Informatiuqe)</i>
-                        <ul>
-                            <li>
-                                Connaissance de soi <i>(1ère année IUT Informatique)</i>
-                            </li>
-                            <li>
-                                Métiers de l'informatique <i>(1ère IUT informatique)</i>
-                            </li>
-                        </ul>
-                    </li>
+                    
                     <li>
                         <span class="titreMatière">C2i</span> <i>(1ère année INSA)</i>
                     </li>
@@ -545,24 +690,24 @@ murins par extraction de motifs fréquents dans des graphes</div>
                 </ul>
             </div>
         </div>
-        <svg class="diag5" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+        
+    </section>
+    <div>
+        <svg class="diag-fonce-clair" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
             viewBox="0 0 100 102" preserveAspectRatio="none">
             <path d="M100 0 L-2 100 L100 100 Z"></path>
         </svg>
-    </section>
-    <!-- <div>
-        <svg class="diag4" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
-            viewBox="0 0 100 102" preserveAspectRatio="none">
-            <path d="M0 0 L-2 100 L101 100 Z"></path>
-        </svg>
-    </div> -->
+    </div>
 
-    <section id="responsabilites">
+    <section id="responsabilites" class="clair">
         <div class="container">
             <h2>responsabilités</h2>
             <div class="main">
                 <h3>Liées à la recherche</h3>
                 <ul>
+                    <li>
+                        Membre de la commission éléctorale permettant de renouveler le conseil de laboratoire (2023)
+                    </li>
                     <li>
                         Porteur du projet ANR JCJC MoS-T (2021-2025)
                     </li>
@@ -575,7 +720,7 @@ murins par extraction de motifs fréquents dans des graphes</div>
                 <h3>Liées à l'enseignement</h3>
                 <ul>
                     <li>
-                        Responsable de la mise en place de la démarche Portfolio (ou démarche réflexive) au sein du département (2021-2022)
+                        Responsable de la mise en place de la démarche réflexive au sein du département (2021-2023)
                     </li>
                     <li>
                         Responsable des stages (2017-2018)
@@ -593,20 +738,34 @@ murins par extraction de motifs fréquents dans des graphes</div>
             </div>
         </div>
     </section>
+    <div>
+        <svg class="diag-clair-rose" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+            viewBox="0 0 100 102" preserveAspectRatio="none">
+            <path d="M0 0 L-2 100 L100 100 Z"></path>
+        </svg>
+    </div>
+    <section>
 
-    <div id="logos">
-        <div class="container">
-            <div class="col-12 col-sm-6 col-md-6 offset-md-6">
-                <div class="">
+    <div id="logos" class="rose">
+        
+
+                    <a href="https://www.cnrs.fr/fr/page-daccueil" target="_blank" title="Lien vers le CNRS">
+                        <img src="images/logoCNRS.png" alt="CNRS" />
+                    </a>
                     <a href="https://icube.unistra.fr/" target="_blank" title="Lien vers l'ICube (nouvel onglet)">
                         <img src="images/logoIcube.png" title="Logo de l'ICube" alt="Logo de l'ICube" />
                     </a>
                     <a href="https://www.unistra.fr/" target="_blank" title="Lien vers l'Unistra (nouvel onglet)">
                         <img src="images/logoUnistra.png" title="Logo de l'Unistra" alt="Logo de l'Unistra" />
-                    </a>
-                </div>
-            </div>
-        </div>
+                    </a> 
+            
+    </div>
+    </section>
+    <div>
+        <svg class="diag-rose-fonce" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+            viewBox="0 0 100 102" preserveAspectRatio="none">
+            <path d="M100 0 L-2 100 L100 100 Z"></path>
+        </svg>
     </div>
     <footer>
         <div class="container row">
