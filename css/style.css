@@ -107,6 +107,11 @@ svg{
     background-color:#cd9f90;
 }
 
+nav ul button{
+    background : transparent;
+    border: 0;
+}
+
 /*
 Effet au niveau des blocs
 */
